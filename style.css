@@ -25,7 +25,6 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
 }
 
 /*
@@ -44,11 +43,23 @@ a {
 
   background-color: black;
   width: 100%;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 10%;
 
   display: flex;
   justify-content: space-between;
 }
 
-.logo {
+.nav-list {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
