@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&family=Tilt+Warp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&family=Secular+One&display=swap");
 
 *,
 *::after,
@@ -45,12 +45,13 @@ a {
 
 .header-heading {
   position: relative;
-  font-family: "Tilt Warp", cursive;
+  font-family: "Secular One", sans-serif;
+  font-weight: 400;
   color: #fff;
   font-size: 3rem;
-  line-height: 1.5;
+  line-height: 1.25;
   text-transform: uppercase;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.75rem;
 }
 
 .nav {
