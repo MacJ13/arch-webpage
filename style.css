@@ -257,3 +257,25 @@ a {
   font-weight: 300;
   color: #525050;
 }
+
+.about-skill {
+  font-size: 1rem;
+
+  line-height: 1.5;
+}
+
+.about-skill:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.about-skill > .marker {
+  display: inline-block;
+
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-right: 0.5rem;
+}
+.about-skill > .marker > svg {
+  width: 100%;
+  height: 100%;
+}
