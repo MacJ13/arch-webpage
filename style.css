@@ -294,3 +294,12 @@ a {
   background-size: cover;
   background-attachment: fixed;
 }
+
+.promo {
+  position: relative;
+  padding: 12rem 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
