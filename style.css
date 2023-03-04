@@ -279,3 +279,18 @@ a {
   width: 100%;
   height: 100%;
 }
+
+/* //////////////////////////////// */
+/* SECTION PROMO */
+/* ////////////////////////////// */
+
+.section-promo {
+  position: relative;
+  margin-top: -5rem;
+  /* clip-path: polygon(0 25%, 100% 0, 100% 75%, 0% 100%); */
+
+  background-image: url(assets/img/promo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
