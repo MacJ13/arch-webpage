@@ -303,3 +303,13 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+.promo-btn {
+  /* border: 1.5rem solid rgba(248, 248, 248, 0.423); */
+  border-radius: 50%;
+  padding: 2.5rem;
+
+  transition: border-color 0.5s;
+
+  cursor: pointer;
+}
