@@ -343,3 +343,16 @@ a {
 .promo-icon svg:hover {
   transform: scale(1.2);
 }
+
+/* /////////////////////////////// */
+/* SECTION-FEATURES */
+/* //////////////////////////// */
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.features .h2 {
+  grid-column: 1;
+}
