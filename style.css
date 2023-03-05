@@ -336,8 +336,10 @@ a {
   width: 5rem;
   height: 5rem;
   fill: #fff;
+
+  transition: transform 0.3s;
 }
 
-.promo-btn:hover {
-  border-color: transparent;
+.promo-icon svg:hover {
+  transform: scale(1.2);
 }
