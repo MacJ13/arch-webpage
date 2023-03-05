@@ -382,3 +382,10 @@ a {
   justify-content: center;
   color: white;
 }
+
+.features-item {
+  padding: 1rem 1.5rem;
+  text-transform: uppercase;
+  font-size: 90%;
+  font-weight: 600;
+}
