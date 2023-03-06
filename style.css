@@ -350,10 +350,8 @@ a {
 
 .features {
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 4fr 3fr;
   grid-template-rows: auto;
-
-  align-content: start;
 
   column-gap: 4rem;
 }
@@ -368,22 +366,25 @@ a {
   grid-column: 2;
   grid-row: 2;
 
+  align-self: stretch;
   width: 100%;
 }
 
 .features .column-left {
   display: grid;
-  align-content: center;
+  align-content: stretch;
   grid-template-rows: auto 1fr;
 }
 
 .features .column-left .about-content {
-  grid-row: auto;
   grid-row: 1;
 }
 
 .features-img {
+  display: block;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .features-list {
@@ -404,6 +405,7 @@ a {
 .features-details {
   position: relative;
   width: 100%;
+  height: 12rem;
   grid-row: 2;
 }
 
@@ -426,5 +428,6 @@ a {
 
 .features-detail > p {
   font-size: 0.9rem;
+  font-weight: 500;
   line-height: 1.5;
 }
