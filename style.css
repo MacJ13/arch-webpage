@@ -382,16 +382,6 @@ a {
   grid-row: 1;
 }
 
-.features-details {
-  position: relative;
-  width: 100%;
-  grid-row: 2;
-}
-
-.features-details .active {
-  display: block;
-}
-
 .features-img {
   width: 100%;
 }
