@@ -400,3 +400,13 @@ a {
   font-size: 90%;
   font-weight: 600;
 }
+
+.features-details {
+  position: relative;
+  width: 100%;
+  grid-row: 2;
+}
+
+.features-details .active {
+  display: block;
+}
