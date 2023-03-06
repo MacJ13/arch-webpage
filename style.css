@@ -371,6 +371,27 @@ a {
   width: 100%;
 }
 
+.features .column-left {
+  display: grid;
+  align-content: center;
+  grid-template-rows: auto 1fr;
+}
+
+.features .column-left .about-content {
+  grid-row: auto;
+  grid-row: 1;
+}
+
+.features-details {
+  position: relative;
+  width: 100%;
+  grid-row: 2;
+}
+
+.features-details .active {
+  display: block;
+}
+
 .features-img {
   width: 100%;
 }
