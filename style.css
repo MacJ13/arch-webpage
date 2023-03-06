@@ -410,3 +410,21 @@ a {
 .features-details .active {
   display: block;
 }
+
+.features-detail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  padding: 1.5rem 1rem;
+}
+
+.features-detail > h4 {
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.features-detail > p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
