@@ -459,3 +459,17 @@ a {
 
   /* opacity: 0.5; */
 }
+
+.features-icon {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  right: 0%;
+}
+
+.features-icon svg {
+  display: block;
+  width: 10rem;
+  height: 10rem;
+  opacity: 0.075;
+}
