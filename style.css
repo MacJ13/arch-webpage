@@ -576,8 +576,6 @@ a {
   margin-right: 1.5rem;
   padding: 0.5rem;
   border-radius: 50%;
-
-  background-color: #ffffff18;
 }
 
 .footer-link:last-child {
@@ -619,4 +617,33 @@ a {
   letter-spacing: 2px;
   font-size: 0.9rem;
   color: #969696;
+}
+
+.linkedin,
+.instagram,
+.facebook {
+  background: #ffffff18;
+}
+
+.facebook:hover {
+  background: #3b5998;
+}
+
+.linkedin:hover {
+  background: #0e76a8;
+}
+
+.instagram:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.footer-link:hover svg {
+  fill: #fff;
 }
