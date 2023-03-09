@@ -556,3 +556,11 @@ a {
   color: #f8f8f8;
   background-color: #000;
 }
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 2rem;
+}
