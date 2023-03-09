@@ -49,10 +49,8 @@ a {
 }
 
 .paragraph {
-  font-size: 1.1rem;
   font-weight: 300;
   line-height: 1.75;
-  color: #525050;
   font-family: "Kanit", sans-serif;
 
   margin-bottom: 3rem;
@@ -177,9 +175,9 @@ a {
 ////////////////////////
 */
 
-/* .section-about {
-  bor
-} */
+.section-about {
+  color: #525050;
+}
 
 .about-grid {
   display: grid;
@@ -347,6 +345,10 @@ a {
 /* /////////////////////////////// */
 /* SECTION-FEATURES */
 /* //////////////////////////// */
+
+.section-features {
+  color: #525050;
+}
 
 .features {
   display: grid;
