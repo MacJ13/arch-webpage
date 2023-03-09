@@ -579,3 +579,7 @@ a {
 
   background-color: #ffffff18;
 }
+
+.footer-link:last-child {
+  margin-right: 0rem;
+}
