@@ -488,3 +488,20 @@ a {
   height: 10rem;
   opacity: 0.075;
 }
+
+/* ------------------------------ */
+/* -------- SECTION CLIENTS ---------- */
+/* --------------------------------- */
+
+.section-clients {
+  background-image: linear-gradient(
+      rgba(81, 81, 81, 0.75),
+      rgba(81, 81, 81, 0.75)
+    ),
+    url(assets/img/promo2.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #f8f8f8;
+}
