@@ -285,7 +285,7 @@ a {
 .section-promo {
   position: relative;
   /* margin-top: -2.5rem; */
-  clip-path: polygon(0 25%, 100% 0, 100% 75%, 0% 100%);
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
 
   background-image: url(assets/img/promo.jpg);
   background-position: center;
@@ -450,7 +450,7 @@ a {
 .features-detail > p {
   font-size: 0.9rem;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.75;
   margin-bottom: 2rem;
   text-align: justify;
 }
