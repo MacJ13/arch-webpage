@@ -543,3 +543,16 @@ a {
 .clients-brand:hover {
   transform: scale(0.9);
 }
+
+/* 
+///////////////////////////////////////////
+///////////// FOOTER /////////////////////
+/////////////////////////////////////
+*/
+
+.footer {
+  padding: 5rem 0 2.5rem 0;
+  text-align: center;
+  color: #f8f8f8;
+  background-color: #000;
+}
