@@ -539,3 +539,7 @@ a {
   height: 100%;
   fill: #f8f8f8;
 }
+
+.clients-brand:hover {
+  transform: scale(0.9);
+}
