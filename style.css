@@ -505,3 +505,20 @@ a {
   background-attachment: fixed;
   color: #f8f8f8;
 }
+
+.clients {
+  text-align: center;
+}
+
+.clients .paragraph {
+  width: 100%;
+  max-width: 37.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clients .paragraph::after {
+  background-color: #f8f8f8;
+  margin-left: auto;
+  margin-right: auto;
+}
