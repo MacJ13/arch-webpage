@@ -583,3 +583,10 @@ a {
 .footer-link:last-child {
   margin-right: 0rem;
 }
+
+.footer-link svg {
+  display: block;
+  fill: #c4c4c4;
+  width: 2rem;
+  height: 2rem;
+}
