@@ -564,3 +564,18 @@ a {
 
   margin-bottom: 2rem;
 }
+
+.footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 4rem;
+  height: 4rem;
+
+  margin-right: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+
+  background-color: #ffffff18;
+}
